@@ -3,10 +3,10 @@ T = True
 while T == True:
     possible_actions = ['R', 'P', 'S']
     computer_actions = random.choice(possible_actions)
-    print('The game is about to begin...')
-    print('Welcome to Rock, Paper or Scissors game')
-    print('enter R for rock, P for paper, or S for scissors')
-    user_action = input('enter a choice (R, P, or S): ')
+    print('\nThe game is about to begin...\n')
+    print('Welcome to Rock, Paper or Scissors game\n')
+    print('Please Enter R for rock, P for paper, or S for scissors\n')
+    user_action = input('Enter a choice (R, P, or S): ')
     for i in user_action:
         if i in possible_actions:
             break
@@ -37,5 +37,6 @@ while T == True:
     if play_again.lower() == 'y':
         continue
     else:
-        print('Thanks for Playing!!, See you next time.')
+        print('Thanks for Playing!!, See you next time.\n')
+        print('Created by Ajulor Christian')
         break
